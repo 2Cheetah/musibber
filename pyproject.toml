@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "get music from YouTube"
+version = "0.1.0"
+description = ""
+authors = ["2Cheetah <fckninja@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lxml = "^4.9.1"
+beautifulsoup4 = "^4.11.1"
+eyed3 = "^0.9.6"
+youtube_dl = "^2021.12.17"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
